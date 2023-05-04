@@ -1,0 +1,39 @@
+.mouse_over_out {
+  animation: scaledown 0.3s ease-in-out;
+}
+@keyframes scaledown {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.mouse_over_in {
+  cursor: pointer;
+  transform: scale(1.2);
+  animation: scale 0.3s ease-in-out;
+}
+@keyframes scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.movie img {
+  width: 140px;
+  height: fit-content;
+}
+
+.error {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  text-align: center;
+  /* margin-top: 200px; */
+  color: red;
+}

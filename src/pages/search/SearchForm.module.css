@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.input {
+  display: flex;
+  border-bottom: 4px solid rgb(10, 188, 237);
+  padding: 10px 20px 10px 20px;
+}
+.input input {
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: grey;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+
+  cursor: pointer;
+}
+
+.selectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+}
+.selectContainer label {
+  color: gray;
+}
+
+.controller {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px 20px 20px;
+  /* padding-right: 20px; */
+}
+.reset,
+.search {
+  color: gray;
+  font-weight: 600px;
+  cursor: pointer;
+  padding: 10px 10px 5px 10px;
+  border: none;
+  background-color: white;
+}
+
+.reset:hover,
+.search:hover {
+  /* background-color: rgba(10, 188, 237, 0.2); */
+  /* color: white; */
+  font-weight: 600;
+}
+.search:focus,
+.reset:focus {
+  background-color: rgb(10, 188, 237);
+  color: white;
+  outline: none;
+}
+
+.reset {
+  margin-right: 10px;
+}

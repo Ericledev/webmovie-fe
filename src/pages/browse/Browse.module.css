@@ -1,0 +1,48 @@
+.hearder {
+  position: relative;
+}
+
+.content {
+  background-color: black;
+  padding: 20px 15px 0px 15px;
+}
+.original {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.original::-webkit-scrollbar {
+  /* display: none; */
+  height: 6px;
+  background-color: #000000;
+}
+.original::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 42, 42);
+}
+
+h3 {
+  color: white;
+  margin-top: 30px;
+}
+
+.endPoint {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.endPoint::-webkit-scrollbar {
+  /* display: none; */
+  height: 6px;
+  background-color: #000000;
+}
+.endPoint::-webkit-scrollbar-thumb {
+  background-color: rgb(48, 42, 42);
+}
+/* .endPoint::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+} */

@@ -1,0 +1,60 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  position: fixed;
+  background: transparent;
+  animation: scrollup 0.2s ease-in-out;
+}
+
+.transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  position: fixed;
+  animation: scrolldown 0.2s ease-in-out;
+  z-index: 10;
+}
+
+.text {
+  color: red;
+  font-weight: 800;
+  margin: 15px 0px 15px 15px;
+  cursor: pointer;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 15px 15px 15px 0px;
+  cursor: pointer;
+}
+
+svg {
+  fill: rgb(128, 128, 128, 0.5);
+}
+
+@keyframes scrolldown {
+  0% {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    background: black;
+  }
+}
+
+@keyframes scrollup {
+  0% {
+    background: black;
+  }
+  50% {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0);
+  }
+}
